@@ -1,0 +1,24 @@
+extends lay.pug
+
+block content
+    #zerocho(width=500)
+        //- div 생 략
+    span.express.nodejs
+    button(type='submit') submit
+        //- <button type='submit'>submit</button>
+    if variable
+        div it's true
+    else 
+        div it's false
+    for i in fruits
+        div= i
+        p
+         | Hello
+         | I'm good
+         |
+         br
+         | you can do it
+block script
+    script.
+        var message = 'pug'
+        alert(message)
