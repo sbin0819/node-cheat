@@ -17,8 +17,8 @@ const answerCallback = (answer) => {
   } else {
     console.clear();
     console.log('you should press y or n');
-    rl.question('예제 재미있습니까 (y/n)? ', answerCallback);
+    rl.question('do you like it (y/n)? ', answerCallback);
   }
 };
 
-rl.question('예제 재미있습니까 (y/n)? ', answerCallback);
+rl.question('do you like it (y/n)? ', answerCallback);
